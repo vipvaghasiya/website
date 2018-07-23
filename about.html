@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>about</title>
+	<link rel="stylesheet"  href="about.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+</head>
+<body ng-app="">
+     
+     
+<form class="frm">
+  Detail:
+  <input type="radio" ng-model="myVar" value="edu" >EDUCATION
+  <input type="radio" ng-model="myVar" value="skil">SKILLS
+  <input type="radio" ng-model="myVar" value="info">INFO
+</form>
+<div ng-switch="myVar" >
+  <div ng-switch-when="edu">
+     <h1>EDUCATION</h1>
+     <h3 class="cng">FEDERATION UNIVERSITY AUSTRALIA</h3>
+     <P class="cng">Master in Software engineering</P>
+     <P class="cng">* GPA:-5.75/7 and 3rd sem going on</P>
+  </div>
+  <div ng-switch-when="skil">
+     <h1>SKILLS</h1>
+     <P class="cng">* HTML</P>
+     <P class="cng">* CSS</P>
+     <P class="cng">* JAVA SCRIPT</P>
+     <P class="cng">* AJAX & JSON</P>
+     <P class="cng">* Angular JS & Node js</P>
+  </div>
+  <div ng-switch-when="info">
+     <h1>INFO</h1>
+     <p class="cng">Email id:- vipvaghasiya007@gmail.com</p>
+     <P class="cng">Mob no:- 0435997626</P>
+     <P class="cng">Address:- 5-7,wigram st, harrispark, 2150</P>
+  </div>
+</div>
+
+</body>
+</html>

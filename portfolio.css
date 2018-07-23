@@ -1,0 +1,15 @@
+body{
+	margin-top: 100px;
+	background: url(portfolio.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-position: center;
+	text-align: center;
+}
+#sk{
+
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+}
